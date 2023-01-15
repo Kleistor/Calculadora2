@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./numpy-1.24.1"
+    ]
+}
