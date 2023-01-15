@@ -39,6 +39,11 @@ while True:
         V2 = float(input("Introduce tu segundo número: ") )
         print(" ")
         print("RESULTADO: El exponente de",V1,"*",V2,"es igual a",V1**V2)
+    elif opcion == 6:
+        V1 = float(input("Introduce tu primer número: ") )
+        raiz = numpy.sqrt(V1)
+        print(" ")
+        print("RESULTADO: Raiz de",V1,"es igual a", raiz)
     elif opcion == 8:
         break
     else:
