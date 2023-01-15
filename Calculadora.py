@@ -13,7 +13,9 @@ while True:
     7) Seno
     8) Apagar calculadora
     """)
-    opcion = int(input("Elige una opción: ") )
+    opcion = int(input("Elige una opción: ") )     
+    
+    
     if opcion == 1:
         V1 = float(input("Introduce tu primer número: ") )
         V2 = float(input("Introduce tu segundo número: ") )
@@ -49,10 +51,8 @@ while True:
         radianes=[numpy.pi/V1]
         numpy.cos(radianes)
         print(" ")
-        print("RESULTADO: El coseno de",V1,radianes)  
+        print("RESULTADO: El coseno de",V1,radianes)      
     elif opcion == 8:
         break
     else:
-        print("Opción incorrecta")
-
-   
+        print("Opción incorrecta por favor intenta de nuevo")
