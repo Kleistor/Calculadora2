@@ -44,6 +44,12 @@ while True:
         raiz = numpy.sqrt(V1)
         print(" ")
         print("RESULTADO: Raiz de",V1,"es igual a", raiz)
+    elif opcion == 7:
+        V1 = float(input("Introduce tu primer número: ") )
+        radianes=[numpy.pi/V1]
+        numpy.cos(radianes)
+        print(" ")
+        print("RESULTADO: El coseno de",V1,radianes)  
     elif opcion == 8:
         break
     else:
