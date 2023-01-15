@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import numpy as np
-print("Calculadora, bienvenido")
-print("Escoge una opción")
-=======
 import numpy as numpy
 
 while True:
@@ -60,5 +55,4 @@ while True:
     elif opcion == 8:
         break
     else:
-        print("Opción incorrecta por favor intenta de nuevo")
->>>>>>> desarrollo
+        print("Opción incorrecta, por favor intenta de nuevo")
