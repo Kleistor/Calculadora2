@@ -19,6 +19,16 @@ while True:
         V2 = float(input("Introduce tu segundo número: ") )
         print(" ")
         print("RESULTADO: La suma de",V1,"+",V2,"es igual a",V1+V2)
+    elif opcion == 2:
+        V1 = float(input("Introduce tu primer número: ") )
+        V2 = float(input("Introduce tu segundo número: ") )
+        print(" ")
+        print("RESULTADO: La resta de",V1,"-",V2,"es igual a",V1-V2)
+    elif opcion == 3:
+        V1 = float(input("Introduce tu primer número: ") )
+        V2 = float(input("Introduce tu segundo número: ") )
+        print(" ")
+        print("RESULTADO: La multiplicación de",V1,"*",V2,"es igual a",V1*V2)
     elif opcion == 8:
         break
     else:
